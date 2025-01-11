@@ -47,7 +47,7 @@ return view.extend({
 	},
 
 	render: function() {
-		var m, s, o;
+		let m, s, o;
 
 		m = new form.Map('nlbwmon', _('Netlink Bandwidth Monitor - Configuration'),
 			_('The Netlink Bandwidth Monitor (nlbwmon) is a lightweight, efficient traffic accounting program keeping track of bandwidth usage per host and protocol.'));
@@ -101,6 +101,9 @@ return view.extend({
 			    m = /^([0-9]{4}-[0-9]{2}-[0-9]{2})\/[0-9]+$/.exec(value);
 
 			return m ? m[1] : null;
+		};
+		o.validate = function(section_id, value) {
+			return /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.exec(value) ? true : _('Require a valid date in the form "YYYY-MM-DD"');
 		};
 		o.write = writePeriod;
 		o.depends('_period', 'absolute');

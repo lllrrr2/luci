@@ -1,25 +1,27 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-02-18 11:31+0000\n"
-"Last-Translator: Olexandr Nesterenko <olexn@ukr.net>\n"
+"PO-Revision-Date: 2024-10-17 17:10+0000\n"
+"Last-Translator: Max <Prototypem95@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsradicale/uk/>\n"
 "Language: uk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.8-rc\n"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:268
 msgid ""
 "'AUTO' selects the highest protocol version that client and server support."
 msgstr ""
+"'АВТО' вибирає найвищу версію протоколу, яку підтримують клієнт і сервер."
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:223
 msgid ""
 "'Hostname:Port' or 'IPv4:Port' or '[IPv6]:Port' Radicale should listen on"
 msgstr ""
+"'Hostname:Port' або 'IPv4:Port' або '[IPv6]:Port' Radicale повинен слухати на"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:272
 msgid "AUTO"
@@ -261,7 +263,7 @@ msgstr "Не інстальовано"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:356
 msgid "None"
-msgstr ""
+msgstr "Нічого"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:654
 msgid "Number of backup files of log to create."
@@ -329,7 +331,7 @@ msgstr ""
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:56
 msgid "Reload"
-msgstr ""
+msgstr "Перезавантажити"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:688
 msgid "Response Encoding"
@@ -376,15 +378,15 @@ msgstr ""
 
 #: applications/luci-app-radicale/luasrc/controller/radicale.lua:62
 msgid "Software package '%s' is not installed."
-msgstr ""
+msgstr "Пакунок програм '%s' не встановлено."
 
 #: applications/luci-app-radicale/luasrc/controller/radicale.lua:71
 msgid "Software package '%s' is outdated."
-msgstr ""
+msgstr "Пакунок програм '%s' застарів."
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:26
 msgid "Software update required"
-msgstr ""
+msgstr "Потрібне оновлення програмного забезпечення"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:164
 #: applications/luci-app-radicale/luasrc/view/radicale/btn_startstop.htm:10

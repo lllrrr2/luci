@@ -1,39 +1,39 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2021-04-07 16:28+0000\n"
-"Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
+"PO-Revision-Date: 2024-02-25 06:41+0000\n"
+"Last-Translator: Костянтин Серьогін <seryoginki@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsminidlna/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:51
 msgid "Advanced Settings"
-msgstr "Додаткові налаштування"
+msgstr "Розширені налаштування"
 
 #: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:80
 msgid "Album art names"
 msgstr "Назви обкладинок альбомів"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:97
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:94
 msgid "Allow wide links"
 msgstr "Дозволити посилання"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:109
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:106
 msgid "Announced UUID"
 msgstr "Анонсований UUID"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:112
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:109
 msgid "Announced model number"
 msgstr "Оголошуваний номер моделі"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:106
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:103
 msgid "Announced serial number"
 msgstr "Оголошуваний серійний номер"
 
@@ -49,11 +49,11 @@ msgstr "Директорія бази даних"
 msgid "Enable"
 msgstr "Увімкнути"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:95
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:92
 msgid "Enable TIVO"
 msgstr "Увімкнути TIVO"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:92
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:90
 msgid "Enable inotify"
 msgstr "Увімкнути inotify"
 
@@ -73,10 +73,6 @@ msgstr "Надати доступ до статусу та конфігурац�
 msgid "Interfaces"
 msgstr "Інтерфейси"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:90
-msgid "Log directory"
-msgstr "Директорія для звіту"
-
 #: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:78
 msgid "Media directories"
 msgstr "Директорія медіа"
@@ -89,7 +85,7 @@ msgstr ""
 "MiniDLNA — це серверне програмне забезпечення для забезпечення повної "
 "сумісності із DLNA/UPnP-AV клієнтами."
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:112
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:109
 msgid ""
 "Model number the miniDLNA daemon will report to clients in its XML "
 "description."
@@ -104,11 +100,11 @@ msgstr "Музика"
 msgid "Network interfaces to serve."
 msgstr "Мережеві інтерфейси для сервісу."
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:103
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:100
 msgid "Notify interval"
 msgstr "Інтервал сповіщення"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:103
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:100
 msgid "Notify interval in seconds."
 msgstr "Інтервал сповіщення у секундах."
 
@@ -124,7 +120,7 @@ msgstr "Порт"
 msgid "Port for HTTP (descriptions, SOAP, media transfer) traffic."
 msgstr "Порт для HTTP трафіку (опис, SOAP, передача мультимедіа)."
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:101
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:98
 msgid "Presentation URL"
 msgstr "URL презентації"
 
@@ -132,7 +128,7 @@ msgstr "URL презентації"
 msgid "Root container"
 msgstr "Кореневий контейнер"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:106
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:103
 msgid ""
 "Serial number the miniDLNA daemon will report to clients in its XML "
 "description."
@@ -154,27 +150,19 @@ msgstr ""
 "Встановіть це, якщо ви хочете вказати каталог, в якому ви хочете, щоб "
 "MiniDLNA зберігала свою базу даних та кеш-пам’ять альбому."
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:90
-msgid ""
-"Set this if you would like to specify the directory where you want MiniDLNA "
-"to store its log file."
-msgstr ""
-"Встановіть це, якщо ви хочете вказати каталог, в якому ви хочете, щоб "
-"MiniDLNA зберігала свій файл журналу"
-
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:97
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:94
 msgid ""
 "Set this to allow serving content outside the media root (via symlinks)."
 msgstr ""
 "Встановіть це, щоб дозволити розміщення вмісту поза кореневим медіа (за "
 "допомогою символьних посилань)."
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:92
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:90
 msgid ""
 "Set this to enable inotify monitoring to automatically discover new files."
 msgstr "Увімкніть 'inotify' для автоматичного виявлення нових файлів."
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:95
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:92
 msgid ""
 "Set this to enable support for streaming .jpg and .mp3 files to a TiVo "
 "supporting HMO."
@@ -182,7 +170,7 @@ msgstr ""
 "Встановіть це, щоб увімкнути підтримку потокової передачі файлів .jpg та ."
 "mp3 на TiVo, що підтримує HMO."
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:99
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:96
 msgid ""
 "Set this to strictly adhere to DLNA standards. This will allow server-side "
 "downscaling of very large JPEG images, which may hurt JPEG serving "
@@ -206,7 +194,7 @@ msgstr ""
 "слідує кома (пишеться так, наприклад: A,/mnt/media/Music). Можна вибрати "
 "відразу кілька каталогів."
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:115
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:112
 msgid "Specify the path to the MiniSSDPd socket."
 msgstr "Вкажіть шлях до сокета MiniSSDPd."
 
@@ -218,7 +206,7 @@ msgstr "Стандартний контейнер"
 msgid "Status"
 msgstr "Стан"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:99
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:96
 msgid "Strict to DLNA standard"
 msgstr "Дотримуватися стандарту DLNA"
 
@@ -238,7 +226,8 @@ msgstr "Сервіс miniDLNA не запущено."
 
 #: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:80
 msgid "This is a list of file names to check for when searching for album art."
-msgstr "Цей список назв файлів використовується для пошуку обкладинок альбомів."
+msgstr ""
+"Цей список назв файлів використовується для пошуку обкладинок альбомів."
 
 #: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:75
 msgid "Video"
@@ -253,9 +242,19 @@ msgstr "miniDLNA"
 msgid "miniDLNA Status"
 msgstr "Стан miniDLNA"
 
-#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:115
+#: applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:112
 msgid "miniSSDP socket"
 msgstr "miniSSDP сокет"
+
+#~ msgid "Log directory"
+#~ msgstr "Директорія для звіту"
+
+#~ msgid ""
+#~ "Set this if you would like to specify the directory where you want "
+#~ "MiniDLNA to store its log file."
+#~ msgstr ""
+#~ "Встановіть це, якщо ви хочете вказати каталог, в якому ви хочете, щоб "
+#~ "MiniDLNA зберігала свій файл журналу"
 
 #~ msgid "Collecting data..."
 #~ msgstr "Збирання даних..."
